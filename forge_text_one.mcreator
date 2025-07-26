@@ -28,6 +28,19 @@
       "metadata": {
         "files": []
       }
+    },
+    {
+      "name": "Amber",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amber",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/forgetextone/item/AmberItem.java",
+          "src/main/resources/assets/forge_text_one/models/item/amber.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -44,11 +57,13 @@
   "language_map": {
     "en_us": {
       "block.forge_text_one.ambermine": "Ambermine",
-      "item_group.forge_text_one.simple_ecology_add": "Simple Ecology Add"
+      "item_group.forge_text_one.simple_ecology_add": "Simple Ecology Add",
+      "item.forge_text_one.amber": "Amber"
     },
     "zh_cn": {
       "block.forge_text_one.ambermine": "琥珀矿",
-      "item_group.forge_text_one.simple_ecology_add": "简易生态扩展"
+      "item_group.forge_text_one.simple_ecology_add": "简易生态扩展",
+      "item.forge_text_one.amber": "Amber"
     }
   },
   "metadata": {
@@ -76,8 +91,11 @@
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
-    "mcreatorDependencies": [],
+    "mcreatorDependencies": [
+      "mcreator_link_1.20.1"
+    ],
     "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.forgetextone"
   },
   "mcreatorVersion": 202500228610

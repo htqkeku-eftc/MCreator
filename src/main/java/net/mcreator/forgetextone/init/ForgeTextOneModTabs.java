@@ -18,5 +18,6 @@ public class ForgeTextOneModTabs {
 	public static final RegistryObject<CreativeModeTab> SIMPLE_ECOLOGY_ADD = REGISTRY.register("simple_ecology_add",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.forge_text_one.simple_ecology_add")).icon(() -> new ItemStack(ForgeTextOneModBlocks.AMBERMINE.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(ForgeTextOneModBlocks.AMBERMINE.get().asItem());
+				tabData.accept(ForgeTextOneModItems.AMBER.get());
 			}).withSearchBar().build());
 }

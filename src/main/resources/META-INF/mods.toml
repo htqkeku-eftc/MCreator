@@ -20,6 +20,12 @@ authors="MCreator"
     ordering="AFTER"
     side="BOTH"
 
+[[dependencies.forge_text_one]]
+    modId="mcreator_link_1.20.1"
+    mandatory=true
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
 
 
 

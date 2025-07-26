@@ -11,11 +11,13 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.forgetextone.item.AmberItem;
 import net.mcreator.forgetextone.ForgeTextOneMod;
 
 public class ForgeTextOneModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, ForgeTextOneMod.MODID);
 	public static final RegistryObject<Item> AMBERMINE = block(ForgeTextOneModBlocks.AMBERMINE, new Item.Properties().fireResistant());
+	public static final RegistryObject<Item> AMBER = REGISTRY.register("amber", () -> new AmberItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items
