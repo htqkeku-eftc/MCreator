@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "features": "forge_text_one:ambermine",
+  "step": "underground_ores"
+}

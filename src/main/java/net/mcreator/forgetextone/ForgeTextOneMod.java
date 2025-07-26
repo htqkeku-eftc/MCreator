@@ -17,6 +17,10 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.forgetextone.init.ForgeTextOneModTabs;
+import net.mcreator.forgetextone.init.ForgeTextOneModItems;
+import net.mcreator.forgetextone.init.ForgeTextOneModBlocks;
+
 import java.util.function.Supplier;
 import java.util.function.Function;
 import java.util.function.BiConsumer;
@@ -36,6 +40,12 @@ public class ForgeTextOneMod {
 		// End of user code block mod constructor
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = context.getModEventBus();
+
+		ForgeTextOneModBlocks.REGISTRY.register(bus);
+
+		ForgeTextOneModItems.REGISTRY.register(bus);
+
+		ForgeTextOneModTabs.REGISTRY.register(bus);
 
 		// Start of user code block mod init
 		// End of user code block mod init

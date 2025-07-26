@@ -1,17 +1,64 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "Ambermine",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ambermine",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/forgetextone/block/AmbermineBlock.java",
+          "src/main/resources/data/forge_text_one/worldgen/configured_feature/ambermine.json",
+          "src/main/resources/assets/forge_text_one/models/block/ambermine.json",
+          "src/main/resources/assets/forge_text_one/blockstates/ambermine.json",
+          "src/main/resources/data/forge_text_one/forge/biome_modifier/ambermine_biome_modifier.json",
+          "src/main/resources/data/forge_text_one/worldgen/placed_feature/ambermine.json",
+          "src/main/resources/data/forge_text_one/loot_tables/blocks/ambermine.json",
+          "src/main/resources/assets/forge_text_one/models/item/ambermine.json"
+        ]
+      }
+    },
+    {
+      "name": "SimpleEcologyAdd",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "simple_ecology_add",
+      "metadata": {
+        "files": []
+      }
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
-  "tag_elements": {},
+  "tag_elements": {
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:Ambermine"
+    ],
+    "BLOCKS:minecraft:needs_stone_tool": [
+      "~CUSTOM:Ambermine"
+    ]
+  },
   "tab_element_order": {},
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "block.forge_text_one.ambermine": "Ambermine",
+      "item_group.forge_text_one.simple_ecology_add": "Simple Ecology Add"
+    },
+    "zh_cn": {
+      "block.forge_text_one.ambermine": "琥珀矿",
+      "item_group.forge_text_one.simple_ecology_add": "简易生态扩展"
+    }
   },
   "metadata": {
     "files": [
       "src/main/resources/META-INF/mods.toml",
+      "src/main/java/net/mcreator/forgetextone/init/ForgeTextOneModTabs.java",
       "src/main/java/net/mcreator/forgetextone/ForgeTextOneMod.java",
-      "src/main/resources/pack.mcmeta"
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/net/mcreator/forgetextone/init/ForgeTextOneModBlocks.java",
+      "src/main/java/net/mcreator/forgetextone/init/ForgeTextOneModItems.java"
     ]
   },
   "foldersRoot": {

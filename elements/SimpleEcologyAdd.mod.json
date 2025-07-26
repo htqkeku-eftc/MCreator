@@ -1,0 +1,11 @@
+{
+  "_fv": 79,
+  "_type": "tab",
+  "definition": {
+    "name": "Simple Ecology Add",
+    "icon": {
+      "value": "CUSTOM:Ambermine"
+    },
+    "showSearch": true
+  }
+}

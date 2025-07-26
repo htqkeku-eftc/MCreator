@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "forge_text_one:block/amber_mine",
+    "up": "forge_text_one:block/amber_mine",
+    "north": "forge_text_one:block/amber_mine",
+    "east": "forge_text_one:block/amber_mine",
+    "south": "forge_text_one:block/amber_mine",
+    "west": "forge_text_one:block/amber_mine",
+    "particle": "forge_text_one:block/amber_mine"
+  },
+  "render_type": "solid"
+}
